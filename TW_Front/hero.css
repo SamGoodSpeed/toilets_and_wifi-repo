@@ -1,0 +1,16 @@
+main {
+  position: relative;
+}
+#map {
+  height: 90vh;
+}
+.modal-btn-case {
+  z-index: 100;
+  left: 45%;
+  top: 20px;
+}
+.map-btn-case {
+  z-index: 100;
+  left: 46%;
+  top: 30vh;
+}
