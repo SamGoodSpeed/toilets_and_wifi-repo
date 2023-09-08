@@ -3,14 +3,39 @@ main {
 }
 #map {
   height: 90vh;
+  z-index: 30;
 }
 .modal-btn-case {
-  z-index: 100;
-  left: 45%;
-  top: 20px;
+  z-index: 40;
+  /* left: 45%; */
+  /* top: 20px; */
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.modal-btn-case button {
+  margin: 0 !important;
 }
 .map-btn-case {
-  z-index: 100;
-  left: 46%;
+  z-index: 40;
+  display: flex;
+  width: 100%;
+  justify-content: center;
   top: 30vh;
+}
+.ui-btn-case {
+  z-index: 40;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px;
+  flex-direction: column;
+  height: 89vh;
+
+  right: 0;
 }
